@@ -1,0 +1,63 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    /* border: 1px solid white; */
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+}
+
+html {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+main {
+    text-align: center;
+    height: auto;
+    margin: 25px;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 300;
+}
+
+.link {
+    margin: 45px 0;
+}
+
+.link a {
+    color: aquamarine;
+    font-size: 16px;
+}
+
+.text {
+    margin-bottom: 25px;
+}
+
+.text p {
+    font-size: 21px;
+    color: gray;
+}
+
+img {
+    max-width: 100%;
+}
+
+footer {
+    text-align: right;
+    padding: 15px 35px;
+    font-size: 24px;
+    color: gray;
+}
